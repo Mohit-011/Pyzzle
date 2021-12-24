@@ -23,7 +23,7 @@ Displaying highest score of the player:
 
 ![image](https://user-images.githubusercontent.com/83200950/147316850-bc74224a-415e-4e5a-ac45-612af2a2e110.png)
 <ul type='square'>
- <li>Selecting 'Play' launches the main game. This consists of a series of questions which you have to answer correctly. Some of the questions also have certain time limits and you are given points on the basis of the time you take. The quicker you answer, greater points you score. If you answer incorrectly or take too much time, you lose the game. Here, I have created a short answer checking algorithm so that it is not necessary to enter all the words correctly. If even a part (single word) of the answer matches the corrcet answer, then full points are given. (For example, 'an egg' is treated to be same as 'egg' or 'the egg').
+ <li>Selecting 'Play' launches the main game. This consists of a series of questions which you have to answer correctly. Some of the questions also have certain time limits and you are given points on the basis of the time you take. The quicker you answer, greater points you score. If you answer incorrectly or take too much time, you lose the game. Here, I have created a short answer checking algorithm so that it is not necessary to enter all the words correctly. If even a part (single word) of the answer matches the correct answer, then full points are given. (For example, 'an egg' is treated to be same as 'egg' or 'the egg').
   
   ![image](https://user-images.githubusercontent.com/83200950/147317320-25e6eaa3-0b82-48a5-9961-d745da1c0945.png)</li>
   
@@ -31,7 +31,7 @@ Displaying highest score of the player:
   
   ![image](https://user-images.githubusercontent.com/83200950/147317418-6574af63-0efa-407b-805f-0c80d58031d7.png)</li>
   
-  <li>Selecting 'Scoreboard' brings up the scoreboard with a list of scores of all the players, arranged in descending order acoording to the respective scores. You are automatically returned to the main menu after 5 seconds.
+  <li>Selecting 'Scoreboard' brings up the scoreboard with a list of scores of all the players, arranged in descending order according to the respective scores. You are automatically returned to the main menu after 5 seconds.
   
   ![image](https://user-images.githubusercontent.com/83200950/147317642-c5bf1616-f559-4fb4-a385-6b80da17593c.png)</li>
   
@@ -44,7 +44,7 @@ Displaying highest score of the player:
 
 ## Troubleshooting Features
 
-<ul type='square'><li>Right when the game starts and asks for your name, if you input 'reset' or 'restore', it will perforom the respective actions. 'Reset' renames the score.txt file to old_score.txt, thus creating a backup of the previous score as well as resetting the game to the fresh-install state. 'Restore' searches for the old_score.txt file and reverts it back to score.txt, thus bringing back the old scores. 
+<ul type='square'><li>Right when the game starts and asks for your name, if you input 'reset' or 'restore', it will perform the respective actions. 'Reset' renames the score.txt file to old_score.txt, thus creating a backup of the previous score as well as resetting the game to the fresh-install state. 'Restore' searches for the old_score.txt file and reverts it back to score.txt, thus bringing back the old scores. 
 
 ![image](https://user-images.githubusercontent.com/83200950/147319088-1c6f0d70-3b27-4a41-bf29-cea920348549.png)</li>
 
