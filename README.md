@@ -9,7 +9,7 @@ The .exe file, created from the main.py script, is a short puzzle game with a pl
 
 ![image](https://user-images.githubusercontent.com/83200950/147316557-9750f0f6-2eba-4bda-85ac-4e73b2b4dfec.png)</li>
 
-<li>It then ask for your name. If you are a returning player, it then displays your highest score yet, else it skips to the main menu of the game.
+<li>It then asks for your name. If you are a returning player, it then displays your highest score yet, else it skips to the main menu of the game.
 
 Prompt for name: 
  
