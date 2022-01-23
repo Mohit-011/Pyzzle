@@ -230,6 +230,7 @@ with open('score.txt', obtainment_method) as score_file:
     scoreboard_empty = not scoreboard
 
 
+# function to show a tutorial to the player
 def display_tutorial(to_delay=True):
     delay = 1.5 if to_delay else 0.25
     instructions = ['Welcome to Pyzzle.', 'This is a puzzle game, coded entirely in Python.',
@@ -257,6 +258,7 @@ elif name in scoreboard:
 current_score = 0
 
 
+# parent function to ask a question from the player
 def ask():
     global current_score, questions_to_ask, to_ask
     if not questions_to_ask:
@@ -281,6 +283,7 @@ def ask():
     current_score += ask_subprocess(question, correct_answer, time_limit)
 
 
+# child function to ask a question from the player
 def ask_subprocess(question, correct_answer, time_limit):
     global to_ask
     exec(code_for_clearing_terminal_output)
@@ -334,6 +337,7 @@ def ask_subprocess(question, correct_answer, time_limit):
     return points_to_add
 
 
+# main game code, which reapeats until the player quits
 while True:
     exec(code_for_clearing_terminal_output)
     selection = input(f'''Select one of the following: 
