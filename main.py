@@ -51,6 +51,7 @@ def get_float(prompt: str):
     return _
 
 
+# a short algorithm to check whether an answer is correct or not, as being riddles, the questions can have answers in various forms. This function checks for all the forms.
 def subset_check(given, correct):
     x = given.split()
     y = correct.split()
