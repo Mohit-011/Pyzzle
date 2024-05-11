@@ -1,7 +1,7 @@
 # Pyzzle
 > ***A puzzle game coded entirely in Python.***
 
-<p><em>This is a school project created by me, Mohit Singh.</em><br>
+<p><em>This is a school project.</em><br>
 
 The .exe file, created from the main.py script, is a short puzzle game with a plethora of little features and details.</p>
 <ol>
